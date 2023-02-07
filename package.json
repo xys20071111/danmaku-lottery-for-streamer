@@ -1,0 +1,9 @@
+{
+  "name": "danmaku-lottery-for-streamer",
+  "version": "1.0.0",
+  "description": "给B站主播用的弹幕抽奖工具",
+  "author": "xys20071111",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["packages/**"]
+}

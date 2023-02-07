@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+}
+
+.pool-area {
+  width: 30%;
+}
+
+.pool-summary {
+  width: 100%;
+  height: 150px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.unselected-item {
+  border: 2px solid;
+  border-color: black;
+  width: 100%;
+}
+.selected-item {
+  border: 2px solid;
+  border-color: red;
+  width: 100%;
+}

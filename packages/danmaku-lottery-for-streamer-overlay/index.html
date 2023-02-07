@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>抽奖界面直播覆盖层</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="normal-pool" class="pool-area">
+        <span class="text">弹幕抽奖池</span><br>
+        <div id="progress-area">
+          <span id="current-danmaku">0</span>/<span id="target-danmaku">0</span>
+          <progress id="counter-progress" max="100" value="0"></progress>
+        </div>
+        <div id="normal-pool-content" class="pool-content"></div>
+      </div>
+      <div id="guard-pool" class="pool-area">
+        <span class="text">上舰抽奖池</span><br>
+        <div id="guard-pool-content" class="pool-content"></div>
+      </div>
+      <div id="summary" class="pool-area">
+        <span class="text">总结</span><br>
+        <div id="normal-pool-summary-area">
+          <span>普通池</span><br>
+          <div id="normal-pool-summary" class="pool-summary"></div>
+        </div>
+        <div id="guard-pool-summary-area">
+          <span>舰长池</span><br>
+          <div id="guard-pool-summary" class="pool-summary"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
